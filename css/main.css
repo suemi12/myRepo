@@ -27,7 +27,11 @@ body{
 
 .card{
   max-height: calc(100vh - 40px);
-    overflow-y: scroll;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.5); 
+  overflow-x: hidden;
+  height: 100%;
+  padding: 10px;
 }
 
 .card img{
@@ -54,6 +58,7 @@ border-radius: 50%;
 .card .btn-primary {
   background-color: rgba(10, 206, 206, .7);
   border: none;
+
 }
 
 .social-network-wrapper{
@@ -86,6 +91,10 @@ border-radius: 50%;
   background-image:url("../img/instagram-icon.png");
 }
 
+.social-network-wrapper .social-icon.youtube{
+  background-image:url("../img/youtube-icon.svg");
+}
+
 .social-network-wrapper .social-icon:not(:first-of-type){
   margin-left: 5px;
 }
@@ -110,9 +119,113 @@ border-radius: 50%;
   background: #555; 
 }
 
-.resume-wrapper{
-  background: white;
-  border-radius: 5px;
-  padding: 10px;
+.card h3{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+
 }
+
+.card.bg-light{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-card{
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.list-group-item img{
+width: 30px;
+border-radius: 50%;
+}
+
+.card .btn-primary#btn-1{
+  margin-left: 45px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+
+.card .btn-primary#btn-2{
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+
+.breadcrumb{
+  margin-left: 30px;
+  margin-right: 30px;
+  background: none;
+  border-left: inherit;
+
+}
+
+.breadcrumb img{
+  width: 10%;
+  color: rgba(10, 206, 206, .7);
+}
+
+.card .card-title#title-2{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold; 
+}
+
+p{
+  font-style: inherit;
+}
+
+.breadcrumb-item{
+  margin-left: 1px;
+  color: rgba(10, 206, 206, .7);
+
+}
+
+.breadcrumb-item img{
+  width: 20%;
+  border-radius: none;
+  margin: 1px 2px 5px auto;
+
+}
+
+.breadcrumb{
+  margin-left: 13px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.card h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr{
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.card .btn-primary#btn-1 img{
+  width: 20%;
+  border-radius: none;
+  margin: 0% 0% 0% 0%;
+}
+
+.card .btn-primary#btn-2 img{
+  width: 20%;
+  border-radius: none;
+  margin: 0% 0% 0% 0%;
+}
+
+.breadcrumb{
+  border-left: rgba(10, 206, 206, .7) 4px solid;
+  margin-left: 30px;
+  line-height: 1.2px;
+}
+
+
+
+
 
